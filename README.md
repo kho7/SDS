@@ -2,7 +2,7 @@
 
 ## Module 1: Introduction to Data Science
 
-## Modele 2: Data Method Theory
+## Modele 2: Data Methods
 
 ## Module 3: Data Programming
 
