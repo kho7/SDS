@@ -3,17 +3,17 @@
 
 ## 1.	Introduction to Data Science
 ### a.	Data concepts
-b.	Data Theory
-c.	Data Generation Process (DGP) theory
-2.	Data methods
-a.	Survey
-b.	Experiments
-c.	Qualitative Data 
-d.	Focus Group
-e.	Web data
-f.	Text data
-g.	Spatial data
-3.	Statistics
+### b.	Data Theory
+### c.	Data Generation Process (DGP) theory
+## 2.	Data methods
+### a.	Survey
+### b.	Experiments
+### c.	Qualitative Data 
+### d.	Focus Group
+### e.	Web data
+### f.	Text data
+### g.	Spatial data
+## 3.	Statistics
 a.	Basic concepts in Statistics: sample, population and inference
 4.	Programming
 a.	R
