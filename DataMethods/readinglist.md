@@ -1,1 +1,5 @@
-### Seltman, H.J., 2012. Experimental design and analysis. Online at: http://www.stat.cmu.edu/hseltman/309/Book/Book.pdf.
+### Seltman, H.J., 2012. _Experimental design and analysis_. Online at: http://www.stat.cmu.edu/hseltman/309/Book/Book.pdf.
+### Groves, R. M., et al. 2009. _Survey Methodology Second Edition_. Wiley-Interscience. 
+### Guest, G., Namey, E.E. and Mitchell, M.L., 2012. _Collecting qualitative data: A field manual for applied research_. Sage. 
+### Krueger, R.A. and Casey, M.A., 2014. _Focus groups: A practical guide for applied research_. Sage publications.
+
