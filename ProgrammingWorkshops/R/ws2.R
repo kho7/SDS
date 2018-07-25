@@ -20,15 +20,21 @@ data("gapminder")
 if(!require(devtools)) install.packages("devtools")
 devtools::install_github("dgrtwo/gganimate")
 library(gganimate)
+install.packages("ggplot2")
+library(ggplot2)
 # Basic scatter plot
-mapping <- aes(x =pop , y = lifeExp, 
-               size = gdpPercap, color = continent,
+mapping <- aes(x =gdpPercap, y = lifeExp, 
+               size = pop, color = continent,
                frame = year) 
-p <- ggplot(gapminder, mapping = mapping) +
+ggplot(gapminder, mapping = mapping) +
   geom_point() +
-  scale_x_log10()
-# Animate
-gganimate(p)
+  theme_linedraw() + 
+  scale_x_log10()+
+  labs(title = 'Year: {frame_time}', x = 'GDP per capita', y = 'life expectancy') +
+  transition_time(year) +
+  ease_aes('linear')
+
+anim_save("p.gif")
 
 ## Exercise
 # 1. Check the variables in gapminder
